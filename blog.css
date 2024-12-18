@@ -1,5 +1,7 @@
 /* stylelint-disable @stylistic/selector-list-comma-newline-after */
-
+/* 
+ * Blog Header Logo Styling
+ */
 .blog-header-logo {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
   font-size: 2.25rem;
@@ -8,7 +10,9 @@
 .blog-header-logo:hover {
   text-decoration: none;
 }
-
+/* 
+  * Headings Styling (h1 - h6)
+ */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
 }
@@ -34,9 +38,8 @@ h1, h2, h3, h4, h5, h6 {
 .blog-pagination {
   margin-bottom: 4rem;
 }
-
-/*
- * Blog posts
+/* 
+ * Blog Post Styling
  */
 .blog-post {
   margin-bottom: 4rem;
